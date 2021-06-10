@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
-import { Grommet, Anchor, Box, Footer, Main, Text } from "grommet"
+import { Grommet, Anchor, Box, Footer, Text } from "grommet"
 import { grommet } from "grommet/themes"
 
 const Layout = ({ children }) => {
